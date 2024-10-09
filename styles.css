@@ -83,6 +83,11 @@ footer {
     border: 3px solid #add8e6; /* Light blue border for the photo */
 }
 
+/* Bio text section */
+.bio {
+    flex-grow: 1; /* Ensures the text takes up the remaining space next to the image */
+    text-align: left; /* Align text to the left */
+}
 
 /* Form styling for Contact page */
 form {
